@@ -1,4 +1,5 @@
 {
+    "name": "ionos-productivity/ionos-mail-notification-api-client",
     "description": "Event Notification Handler",
     "keywords": [
         "openapitools",
