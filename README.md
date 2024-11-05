@@ -7,8 +7,27 @@ This is the API client for the Mail Notification API
 
 ### Requirements
 
-PHP 7.4 and later.
-Should also work with PHP 8.0.
+* PHP 7.4 and later (should also work with PHP 8.0)
+* Java 11 or later
+
+### Regenerate the API client
+
+Regenerate the API client with the latest changes in the API specification
+
+1. Pull last openapi definition from server
+```shell
+./pull_api_definition.sh api.example.lan:10443
+```
+
+2. Install openapi generator 
+```shell
+npm install
+```
+
+3. Generate api for pulled openapi version
+```shell
+make php
+```
 
 ### Composer
 
