@@ -10,6 +10,20 @@ This is the API client for the Mail Notification API
 PHP 7.4 and later.
 Should also work with PHP 8.0.
 
+### Regenerate the API client
+
+Regenerate the API client with the latest changes in the API specification
+
+1. 
+```shell
+./pull_api_definition.sh api.example.lan:10443
+```
+
+2.
+```shell
+make php
+```
+
 ### Composer
 
 To install the bindings via [Composer](https://getcomposer.org/), add the following to `composer.json`:
