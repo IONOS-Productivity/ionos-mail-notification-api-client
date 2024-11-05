@@ -111,6 +111,6 @@ Regenerate the API client with the latest changes to the OpenAPI specification:
 ./update_api.sh api.example.lan:10443
 ```
 
-- API version: `1.0.0-20241104145932`
+- API version: `1.0.0-20241105152937`
     - Generator version: `7.10.0-SNAPSHOT`
 - Build package: `org.openapitools.codegen.languages.PhpClientCodegen`
