@@ -8,7 +8,7 @@ Name | Type | Description | Notes
 **fileName** | **string** | Name of the file being shared |
 **resourceUrl** | **string** | URL of the shared resource |
 **note** | **string** | Optional note from the sender | [optional]
-**expirationDate** | **int** | Expiration date of the link in milliseconds since epoch |
+**expirationDate** | **int** | Expiration date of the link in milliseconds since epoch | [optional]
 **language** | [**\IONOS\MailNotificationAPI\Client\Model\ShareMessageWithOtherUserLanguage**](ShareMessageWithOtherUserLanguage.md) |  | [optional]
 **receiverUserIds** | **string[]** | List of receiver nextcloud user Ids |
 

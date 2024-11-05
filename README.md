@@ -1,4 +1,4 @@
-# IONOS Event Notification Handler
+# IONOSEventNotificationHandler
 
 Event Notification Handler
 
@@ -37,7 +37,7 @@ Download the files and include `autoload.php`:
 
 ```php
 <?php
-require_once('/path/to/OpenAPIClient-php/vendor/autoload.php');
+require_once('/path/to/IONOSEventNotificationHandler/vendor/autoload.php');
 ```
 
 ## Getting Started
@@ -111,6 +111,6 @@ Regenerate the API client with the latest changes to the OpenAPI specification:
 ./update_api.sh api.example.lan:10443
 ```
 
-- API version: `1.0.0-20240927113522`
+- API version: `1.0.0-20241104145932`
     - Generator version: `7.10.0-SNAPSHOT`
 - Build package: `org.openapitools.codegen.languages.PhpClientCodegen`
