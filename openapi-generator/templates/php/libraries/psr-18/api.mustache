@@ -533,7 +533,7 @@ use function sprintf;
         if (${{paramName}} !== null) {
         {{#style}}
             if('form' === '{{style}}' && is_array(${{paramName}})) {
-                foreach(${{paramName}} as $key => $value) {
+                foreach (${{paramName}} as $key => $value) {
                     $queryParams[$key] = $value;
                 }
             }
