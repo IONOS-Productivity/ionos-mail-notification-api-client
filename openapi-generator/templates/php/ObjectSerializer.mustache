@@ -94,7 +94,7 @@ class ObjectSerializer
                     }
                 }
             } else {
-                foreach($data as $property => $value) {
+                foreach ($data as $property => $value) {
                     $values[$property] = self::sanitizeForSerialization($value);
                 }
             }
@@ -180,16 +180,16 @@ class ObjectSerializer
             case 'float':
                 return $value !== 0 && $value !== 0.0;
 
-            # For boolean values, '' is considered empty
+                # For boolean values, '' is considered empty
             case 'bool':
             case 'boolean':
                 return !in_array($value, [false, 0], true);
 
-            # For string values, '' is considered empty.
+                # For string values, '' is considered empty.
             case 'string':
                 return $value === '';
 
-            # For all the other types, any value at this point can be considered empty.
+                # For all the other types, any value at this point can be considered empty.
             default:
                 return true;
         }
@@ -230,7 +230,7 @@ class ObjectSerializer
         }
 
         # Handle DateTime objects in query
-        if($openApiType === "\\DateTime" && $value instanceof \DateTime) {
+        if ($openApiType === "\\DateTime" && $value instanceof \DateTime) {
             return ["{$paramName}" => $value->format(self::$dateTimeFormat)];
         }
 
@@ -579,7 +579,7 @@ class ObjectSerializer
 
         $castBool = Configuration::BOOLEAN_FORMAT_INT == Configuration::getDefaultConfiguration()->getBooleanFormatForQueryString()
             ? function ($v) { return (int) $v; }
-            : function ($v) { return $v ? 'true' : 'false'; };
+        : function ($v) { return $v ? 'true' : 'false'; };
 
         $qs = '';
         foreach ($params as $k => $v) {
