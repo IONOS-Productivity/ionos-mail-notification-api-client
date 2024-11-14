@@ -1,0 +1,21 @@
+{
+  "name": "ionos-mail-notification-api-client",
+  "version": "1.0.0",
+  "description": "IONOS Mail Notification API Client",
+  "scripts": {
+    "generate.php": "make php"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:IONOS-Productivity/ionos-mail-notification-api-client.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IONOS-Productivity/ionos-mail-notification-api-client/issues"
+  },
+  "homepage": "https://github.com/IONOS-Productivity/ionos-mail-notification-api-client",
+  "devDependencies": {
+    "@openapitools/openapi-generator-cli": "^2.15.3"
+  }
+}
