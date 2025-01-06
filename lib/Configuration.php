@@ -100,7 +100,7 @@ class Configuration
      *
      * @var string
      */
-    protected $userAgent = 'OpenAPI-Generator/1.0.0/PHP';
+    protected $userAgent = 'ionos-mail-notification-api-client/1.0.0-20241129122727/PHP';
 
     /**
      * Debug switch (default set to false)
