@@ -4,7 +4,7 @@
     "contact": {},
     "description": "This is the API client for the Mail Notification API",
     "title": "Event Notification Handler",
-    "version": "1.0.0-20241129122727"
+    "version": "1.0.0-20241219115512"
   },
   "servers": [
     {
